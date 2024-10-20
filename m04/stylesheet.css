@@ -2,26 +2,46 @@
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;}
+            h1 {
+                font-family: 'nanookRegular';
+                font-weight: normal;
+              font-style: normal;}
 			body {
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+                background-image: url("https://cdn.dribbble.com/userupload/10091671/file/original-6d8373e2ecee8b7a74044b9445508280.jpg?resize=5766x3242")
+}
 			#content {
 				overflow: auto;}
-			#nav, #feature, #footer {
+			#nav, #footer {
 				margin: 1%;}
+            #feature {
+                height: 10em;
+				margin-bottom: 1em;;
+                margin: 1%; 
+                background-color: #F6E898;
+                background-image: url("https://png.pngtree.com/png-vector/20231108/ourmid/pngtree-pink-flower-cute-png-image_10448174.png");
+                background-size:contain;
+                background-position: right;
+                background-repeat:no-repeat
+}
 			.column1, .column2, .column3 {
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
-			.column3 {
-				margin-right: 0%;}
+            .column1 {
+                background-color: #00FFFF;}
+            .column2 {
+                background-color: #C387FF;} 
+		 	.column3 {
+				margin-right: 0%;
+                background-color: #ECE8D5;}
 			li {
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color: #efefef;
+				background-color: #ececfe;
 				padding: 0.5em 0;}
-			#feature, .article {
+             .article {
 				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
+				margin-bottom: 1em;}
